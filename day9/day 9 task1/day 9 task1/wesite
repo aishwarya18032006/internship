@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resin Art by [Your Name]</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: floralwhite;
+      color: #333;
+    }
+
+    header {
+      background-color: teal;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #004d4d;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .about, .contact {
+      background-color: #f0f0f0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background-color: teal;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Resin Art by [Your Name]</h1>
+    <p>Beautiful handcrafted resin creations</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About My Art</h2>
+    <p>
+      Welcome to my resin art page! I create unique and colorful pieces using resin, pigments, and natural elements. 
+      Every item is handmade with love and creativity — from coasters and trays to jewelry and wall art.
+    </p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Art+1" alt="Resin Art 1">
+      <img src="https://via.placeholder.com/300x200?text=Art+2" alt="Resin Art 2">
+      <img src="https://via.placeholder.com/300x200?text=Art+3" alt="Resin Art 3">
+      <img src="https://via.placeholder.com/300x200?text=Art+4" alt="Resin Art 4">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourname@example.com</p>
+    <p>Instagram: @yourresinart</p>
+    <p>Location: Chennai, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Resin Art by [Your Name]. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
